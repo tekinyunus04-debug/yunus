@@ -1,0 +1,15 @@
+[project]
+name = "cad-engine"
+version = "0.1.0"
+description = "Professional-grade 2D CAD drawing engine core"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
